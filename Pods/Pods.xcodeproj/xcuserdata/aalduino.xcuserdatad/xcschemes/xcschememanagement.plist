@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TravisTVTest-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TravisTVTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TravisTest-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TravisTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5346AC62FD5D6AAC1E12BA4F9BFCA9E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88B769A529B53BF3180DE20DD3D5F67B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5ECB5EC8FCD4FE34C109C1FEE2AB285</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3875DD51379E3DC28ECB9B10437DFA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

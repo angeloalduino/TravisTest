@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B848E2D409852A5D2481954 /* Pods_TravisTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A37A25E765CE90E9CD8057 /* Pods_TravisTest.framework */; };
 		CF9591AF1C21BCAC000FE7F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9591AE1C21BCAC000FE7F5 /* main.m */; };
 		CF9591B21C21BCAC000FE7F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B11C21BCAC000FE7F5 /* AppDelegate.m */; };
 		CF9591B51C21BCAC000FE7F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B41C21BCAC000FE7F5 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		945A18D0B267145F720DDB2F /* Pods-TravisTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravisTest/Pods-TravisTest.release.xcconfig"; sourceTree = "<group>"; };
+		95A37A25E765CE90E9CD8057 /* Pods_TravisTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravisTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9591AA1C21BCAC000FE7F5 /* TravisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9591AE1C21BCAC000FE7F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF9591B01C21BCAC000FE7F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		CF9591CE1C21BCAC000FE7F5 /* TravisTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9591D21C21BCAC000FE7F5 /* TravisTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisTestUITests.m; sourceTree = "<group>"; };
 		CF9591D41C21BCAC000FE7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D523F7A02C1D296DA7752237 /* Pods-TravisTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravisTest/Pods-TravisTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B848E2D409852A5D2481954 /* Pods_TravisTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6386FBDEB18EAC2580411DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A37A25E765CE90E9CD8057 /* Pods_TravisTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9135188B6D2E44DA660E3EAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D523F7A02C1D296DA7752237 /* Pods-TravisTest.debug.xcconfig */,
+				945A18D0B267145F720DDB2F /* Pods-TravisTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF9591A11C21BCAC000FE7F5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				CF9591C61C21BCAC000FE7F5 /* TravisTestTests */,
 				CF9591D11C21BCAC000FE7F5 /* TravisTestUITests */,
 				CF9591AB1C21BCAC000FE7F5 /* Products */,
+				9135188B6D2E44DA660E3EAC /* Pods */,
+				6386FBDEB18EAC2580411DA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF9591D71C21BCAC000FE7F5 /* Build configuration list for PBXNativeTarget "TravisTest" */;
 			buildPhases = (
+				52BA48FB0D2244D5A1D92147 /* Check Pods Manifest.lock */,
 				CF9591A61C21BCAC000FE7F5 /* Sources */,
 				CF9591A71C21BCAC000FE7F5 /* Frameworks */,
 				CF9591A81C21BCAC000FE7F5 /* Resources */,
+				1EB045FEFEF7A7FA2BEB9273 /* Embed Pods Frameworks */,
+				43ABD2D0C23ADBDAE03B3DF1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB045FEFEF7A7FA2BEB9273 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisTest/Pods-TravisTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43ABD2D0C23ADBDAE03B3DF1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisTest/Pods-TravisTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52BA48FB0D2244D5A1D92147 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF9591A61C21BCAC000FE7F5 /* Sources */ = {
@@ -411,6 +486,7 @@
 		};
 		CF9591D81C21BCAC000FE7F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D523F7A02C1D296DA7752237 /* Pods-TravisTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravisTest/Info.plist;
@@ -422,6 +498,7 @@
 		};
 		CF9591D91C21BCAC000FE7F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945A18D0B267145F720DDB2F /* Pods-TravisTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravisTest/Info.plist;
@@ -498,6 +575,7 @@
 				CF9591D91C21BCAC000FE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9591DA1C21BCAC000FE7F5 /* Build configuration list for PBXNativeTarget "TravisTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +584,7 @@
 				CF9591DC1C21BCAC000FE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9591DD1C21BCAC000FE7F5 /* Build configuration list for PBXNativeTarget "TravisTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +593,7 @@
 				CF9591DF1C21BCAC000FE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
